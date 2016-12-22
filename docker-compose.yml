@@ -4,7 +4,6 @@ postgresdb:
     - /var/lib/postgresql/data
     
 postgres:
-  name: postgres
   hostname: postgres
   volumes_from:
     - postgresdb
